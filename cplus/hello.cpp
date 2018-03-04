@@ -47,6 +47,40 @@ BinaryTreeNode* BuildTree()
     return root;
 }
 
+void PrintInOrder(BinaryTreeNode* pNode)
+{
+    if (pNode == NULL)
+        return;
+
+    PrintInOrder(pNode->m_pLeft);
+    cout << pNode->value << endl;
+    PrintInOrder(pNode->m_pRight);
+}
+
+void PrintPreOrder(BinaryTreeNode* pNode)
+{
+    if (pNode == NULL)
+        return;
+
+    cout << pNode->value << endl;   
+    PrintPreOrder(pNode->m_pLeft);
+    
+    PrintPreOrder(pNode->m_pRight);
+}
+
+void PrintPostOrder(BinaryTreeNode* pNode)
+{
+    if (pNode == NULL)
+        return;
+
+     
+    PrintPostOrder(pNode->m_pLeft);
+    
+    PrintPostOrder(pNode->m_pRight);
+
+    cout << pNode->value << endl;  
+}
+
 BinaryTreeNode* GetNext(BinaryTreeNode* pNode) {
     if (pNode == NULL)
         return NULL;
@@ -84,6 +118,12 @@ int main()
     cout << "hello" << endl;
     BinaryTreeNode *root = BuildTree();
     BinaryTreeNode * temp = GetNext(root->m_pLeft->m_pRight->m_pRight);
+    cout << "inorder" << endl;
+    PrintInOrder(root);
+    cout << "postorder" << endl;
+    PrintPostOrder(root);
+    cout << "preroder" << endl;
+    PrintPreOrder(root);
     return 0;
 }
 

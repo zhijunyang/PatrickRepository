@@ -1,0 +1,10 @@
+C:\Users\yangz\workspace\csharp\bin\Debug\netcoreapp2.0\cplus.deps.json
+C:\Users\yangz\workspace\csharp\bin\Debug\netcoreapp2.0\cplus.runtimeconfig.json
+C:\Users\yangz\workspace\csharp\bin\Debug\netcoreapp2.0\cplus.runtimeconfig.dev.json
+C:\Users\yangz\workspace\csharp\bin\Debug\netcoreapp2.0\cplus.dll
+C:\Users\yangz\workspace\csharp\bin\Debug\netcoreapp2.0\cplus.pdb
+C:\Users\yangz\workspace\csharp\obj\Debug\netcoreapp2.0\cplus.csproj.CoreCompileInputs.cache
+C:\Users\yangz\workspace\csharp\obj\Debug\netcoreapp2.0\cplus.AssemblyInfoInputs.cache
+C:\Users\yangz\workspace\csharp\obj\Debug\netcoreapp2.0\cplus.AssemblyInfo.cs
+C:\Users\yangz\workspace\csharp\obj\Debug\netcoreapp2.0\cplus.dll
+C:\Users\yangz\workspace\csharp\obj\Debug\netcoreapp2.0\cplus.pdb

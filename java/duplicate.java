@@ -1,5 +1,5 @@
 
-class My
+class duplicate
 {
     public static void main(String args[])
     {
